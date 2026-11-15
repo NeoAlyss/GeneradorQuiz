@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GeneradorQuiz" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorOnPrimary">@color/textoSobrePrimario</item>
+        <item name="colorSecondary">@color/secundario</item>
+        <item name="android:colorBackground">@color/fondo</item>
+    </style>
+
+    <!-- ==================== ESTILOS PROPIOS ==================== -->
+    <style name="TituloPantalla">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textoPrincipal</item>
+    </style>
+
+    <style name="TextoFilaTitulo">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textoPrincipal</item>
+    </style>
+
+    <style name="TextoSecundario">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/textoSecundario</item>
+    </style>
+
+    <style name="BotonIcono">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="tint">@color/primario</item>
+    </style>
+
+    <style name="FilaTarjeta">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:background">@color/fondoTarjeta</item>
+    </style>
+
+    <style name="Theme.GeneradorQuiz" parent="Base.Theme.GeneradorQuiz" />
+</resources>

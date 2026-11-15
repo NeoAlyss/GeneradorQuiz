@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Marca -->
+    <color name="primario">#C9B8FF</color>
+    <color name="textoSobrePrimario">#2A1A66</color>
+    <color name="secundario">#FFC857</color>
+
+    <!-- Fondos -->
+    <color name="fondo">#141218</color>
+    <color name="fondoTarjeta">#211F26</color>
+
+    <!-- Textos -->
+    <color name="textoPrincipal">#E6E1E5</color>
+    <color name="textoSecundario">#B5AFC0</color>
+
+    <!-- Estados -->
+    <color name="correcto">#81C784</color>
+    <color name="incorrecto">#EF9A9A</color>
+</resources>

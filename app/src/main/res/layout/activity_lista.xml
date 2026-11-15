@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListaActivity">
+
+    <!-- Barra superior -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtTituloLista"
+            style="@style/TituloPantalla"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtTituloLista" />
+
+        <ImageButton
+            android:id="@+id/btnIALista"
+            style="@style/BotonIcono"
+            android:src="@android:drawable/star_big_on"
+            android:contentDescription="@string/btnIALista" />
+
+        <ImageButton
+            android:id="@+id/btnAgregarLista"
+            style="@style/BotonIcono"
+            android:src="@android:drawable/ic_input_add"
+            android:contentDescription="@string/btnAgregarLista" />
+
+        <ImageButton
+            android:id="@+id/btnSalirLista"
+            style="@style/BotonIcono"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:contentDescription="@string/btnSalirLista" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp">
+
+            <!-- Fila 1 -->
+            <LinearLayout style="@style/FilaTarjeta">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:contentDescription="@string/imgQuizLista" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTituloQuiz1"
+                        style="@style/TextoFilaTitulo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtTituloQuiz1" />
+
+                    <TextView
+                        android:id="@+id/txtInfoQuiz1"
+                        style="@style/TextoSecundario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtInfoQuiz1" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnJugarQuiz1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnJugarLista" />
+
+            </LinearLayout>
+
+            <!-- Fila 2 -->
+            <LinearLayout style="@style/FilaTarjeta">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:contentDescription="@string/imgQuizLista" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTituloQuiz2"
+                        style="@style/TextoFilaTitulo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtTituloQuiz2" />
+
+                    <TextView
+                        android:id="@+id/txtInfoQuiz2"
+                        style="@style/TextoSecundario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtInfoQuiz2" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnJugarQuiz2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnJugarLista" />
+
+            </LinearLayout>
+
+            <!-- Fila 3 -->
+            <LinearLayout style="@style/FilaTarjeta">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:contentDescription="@string/imgQuizLista" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTituloQuiz3"
+                        style="@style/TextoFilaTitulo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtTituloQuiz3" />
+
+                    <TextView
+                        android:id="@+id/txtInfoQuiz3"
+                        style="@style/TextoSecundario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtInfoQuiz3" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnJugarQuiz3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnJugarLista" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

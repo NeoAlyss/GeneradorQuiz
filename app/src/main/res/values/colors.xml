@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clásicos: blanco y negro -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Marca -->
+    <color name="primario">#5B3CC4</color>
+    <color name="textoSobrePrimario">#FFFFFF</color>
+    <color name="secundario">#FFB020</color>
+
+    <!-- Fondos -->
+    <color name="fondo">#F7F5FF</color>
+    <color name="fondoTarjeta">#FFFFFF</color>
+
+    <!-- Textos -->
+    <color name="textoPrincipal">#1C1B1F</color>
+    <color name="textoSecundario">#5F5B6B</color>
+
+    <!-- Estados -->
+    <color name="correcto">#2E7D32</color>
+    <color name="incorrecto">#C62828</color>
+</resources>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">QuizMaker</string>
+
+    <!-- ==================== LOGIN ==================== -->
+    <string name="imgLogo">Logo de QuizMaker</string>
+    <string name="edtCorreoLogin">Correo electrónico</string>
+    <string name="edtClaveLogin">Contraseña</string>
+    <string name="chkRecordarLogin">Recuérdame</string>
+    <string name="btnIngresarLogin">Ingresar</string>
+
+    <!-- ==================== REGISTRO ==================== -->
+    <string name="txtTituloRegistro">Crear Cuenta</string>
+    <string name="txtSubRegistro">Crea y comparte tus propios quizzes</string>
+    <!-- Campos -->
+    <string name="edtNombreRegistro">Nombre</string>
+    <string name="edtCorreoRegistro">Correo electrónico</string>
+    <string name="edtContrasenaRegistro">Contraseña</string>
+    <string name="edtRepetirContrasenaRegistro">Repetir Contraseña</string>
+    <!-- Pregunta RadioGroup -->
+    <string name="txtPreguntaRegistro">¿Para qué usarás la app?</string>
+    <string name="rbEstudiar">Estudiar</string>
+    <string name="rbEnsenar">Enseñar</string>
+    <string name="rbJugar">Jugar</string>
+    <!-- Acciones -->
+    <string name="chkTerminosRegistro">Acepto los Términos y Condiciones.</string>
+    <string name="btnCrearCuentaRegistro">Crear cuenta</string>
+    <string name="txtVolverLoginRegistro">¿Ya tienes cuenta? Ingresa.</string>
+
+    <!-- ==================== LISTA ==================== -->
+    <string name="txtTituloLista">Mis Quizzes</string>
+    <string name="btnIALista">Generar quiz con IA</string>
+    <string name="btnAgregarLista">Crear quiz</string>
+    <string name="btnSalirLista">Cerrar sesión</string>
+    <!-- Se repiten en cada fila -->
+    <string name="imgQuizLista">Ícono del quiz</string>
+    <string name="btnJugarLista">Jugar</string>
+    <!-- Datos de ejemplo -->
+    <string name="txtTituloQuiz1">Capitales de Sudamérica</string>
+    <string name="txtInfoQuiz1">10 preguntas · Geografía</string>
+    <string name="txtTituloQuiz2">Sistema Solar</string>
+    <string name="txtInfoQuiz2">8 preguntas · Ciencias</string>
+    <string name="txtTituloQuiz3">Historia de Chile</string>
+    <string name="txtInfoQuiz3">12 preguntas · Historia</string>
+
+    <!-- ==================== AGREGAR ==================== -->
+
+    <!-- ==================== DETALLE ==================== -->
+
+    <!-- ==================== IA ==================== -->
+
+</resources>
