@@ -26,18 +26,27 @@
         <ImageButton
             android:id="@+id/btnIALista"
             style="@style/BotonIcono"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
             android:src="@android:drawable/star_big_on"
             android:contentDescription="@string/btnIALista" />
 
         <ImageButton
             android:id="@+id/btnAgregarLista"
             style="@style/BotonIcono"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
             android:src="@android:drawable/ic_input_add"
             android:contentDescription="@string/btnAgregarLista" />
 
         <ImageButton
             android:id="@+id/btnSalirLista"
             style="@style/BotonIcono"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
             android:src="@android:drawable/ic_menu_close_clear_cancel"
             android:contentDescription="@string/btnSalirLista" />
 

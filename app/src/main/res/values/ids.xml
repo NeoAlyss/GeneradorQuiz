@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="rbJugar" type="id">rbJugar</item>
-    <item name="rbEnsenar" type="id">rbEnsenar</item>
-    <item name="rbEstudiar" type="id">rbEstudiar</item>
-    <item name="rgUsoRegistro" type="id">rbUsoRegistro</item>
-</resources>
