@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetalleActivity">
+
+    <!-- Barra superior Título + el iconito -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageButton
+            android:id="@+id/btnVolverDetalle"
+            style="@style/BotonIcono"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="12dp"
+            android:contentDescription="@string/btnVolverDetalle"
+            android:src="@drawable/ic_volver" />
+
+        <TextView
+            android:id="@+id/txtTituloDetalle"
+            style="@style/TituloPantalla"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtTituloDetalle" />
+
+    </LinearLayout> <!-- aquí termina la barra con el título-->
+
+    <!-- Con scrollview nos permite deslizar si es que tenemos muchos cards -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp">
+
+            <!-- Quiz 1 -->
+            <LinearLayout style="@style/FilaTarjeta">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTituloQuiz1"
+                        style="@style/TextoFilaTitulo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtTituloQuiz1" />
+
+                    <TextView
+                        android:id="@+id/txtInfoQuiz1"
+                        style="@style/TextoSecundario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtInfoQuiz1" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btnEditarQuiz1"
+                    style="@style/BotonIcono"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:contentDescription="@string/btnEditarDetalle"
+                    android:src="@android:drawable/ic_menu_edit" />
+
+                <ImageButton
+                    android:id="@+id/btnEliminarQuiz1"
+                    style="@style/BotonIcono"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="8dp"
+                    android:contentDescription="@string/btnEliminarDetalle"
+                    android:src="@android:drawable/ic_menu_delete" />
+            </LinearLayout>
+
+            <!-- Quiz 2 -->
+            <LinearLayout style="@style/FilaTarjeta">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTituloQuiz2"
+                        style="@style/TextoFilaTitulo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtTituloQuiz2" />
+
+                    <TextView
+                        android:id="@+id/txtInfoQuiz2"
+                        style="@style/TextoSecundario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtInfoQuiz2" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btnEditarQuiz1"
+                    style="@style/BotonIcono"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:contentDescription="@string/btnEditarDetalle"
+                    android:src="@android:drawable/ic_menu_edit" />
+
+                <ImageButton
+                    android:id="@+id/btnEliminarQuiz1"
+                    style="@style/BotonIcono"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="8dp"
+                    android:contentDescription="@string/btnEliminarDetalle"
+                    android:src="@android:drawable/ic_menu_delete" />
+            </LinearLayout>
+
+            <!-- Quiz 3 -->
+            <LinearLayout style="@style/FilaTarjeta">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTituloQuiz3"
+                        style="@style/TextoFilaTitulo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtTituloQuiz3" />
+
+                    <TextView
+                        android:id="@+id/txtInfoQuiz3"
+                        style="@style/TextoSecundario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtInfoQuiz3" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btnEditarQuiz3"
+                    style="@style/BotonIcono"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:contentDescription="@string/btnEditarDetalle"
+                    android:src="@android:drawable/ic_menu_edit" />
+
+                <ImageButton
+                    android:id="@+id/btnEliminarQuiz3"
+                    style="@style/BotonIcono"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="8dp"
+                    android:contentDescription="@string/btnEliminarDetalle"
+                    android:src="@android:drawable/ic_menu_delete" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Cómo debería verse una advertencia al eliminar -->
+    <LinearLayout
+        android:id="@+id/layoutAvisoEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/fondoTarjeta"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/txtAvisoEliminarDetalle"
+            style="@style/TextoFilaTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtAvisoEliminarDetalle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancelarDetalle"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnCancelarDetalle" />
+
+            <Button
+                android:id="@+id/btnConfirmarEliminarDetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="@color/incorrecto"
+                android:text="@string/btnConfirmarEliminarDetalle" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
