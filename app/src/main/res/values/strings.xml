@@ -31,14 +31,35 @@
     <string name="btnJugarLista">¡Jugar!\nMis quizzes</string>
     <string name="btnNuevoQuizLista">Nuevo quiz</string>
     <string name="btnIALista">Quiz con IA</string>
+    <string name="btnSalirLista">Cerrar sesión</string>
+
+    <!-- ==================== COMUNES (Agregar / Editar / IA) ==================== -->
+    <string name="btnVolverMenu">Volver al menú principal</string>
+    <string name="txtNumeroPreguntas">Número de preguntas:</string>
+    <string name="btnRestarPreguntas">-</string>
+    <string name="btnSumarPreguntas">+</string>
+    <string name="btnGuardarQuiz">Guardar Quiz</string>
+
+    <!-- ==================== FORMULARIO QUIZ (Agregar / Editar) ==================== -->
+    <string name="txtNombreQuiz">Nombre del Quiz:</string>
+    <string name="edtNombreQuizHint">Ej: Animales herbívoros</string>
+    <string name="txtDescripcionQuiz">Descripción:</string>
+    <string name="edtDescripcionQuizHint">Ej: Quiz con preguntas sobre animales herbívoros, nivel fácil, para escolares</string>
+    <string name="edtCantPreguntasDefecto">4</string>
+    <string name="edtPregunta1Hint">1. Escribe la pregunta 1</string>
+    <string name="edtPregunta2Hint">2. Escribe la pregunta 2</string>
+    <string name="edtPregunta3Hint">3. Escribe la pregunta 3</string>
+    <string name="edtPregunta4Hint">4. Escribe la pregunta 4</string>
+    <string name="edtOpcion1Hint">Opción 1</string>
+    <string name="edtOpcion2Hint">Opción 2</string>
+    <string name="edtOpcion3Hint">Opción 3</string>
 
     <!-- ==================== AGREGAR ==================== -->
+    <string name="txtTituloAgregar">Crear nuevo Quiz</string>
 
-    <!-- ==================== LISTA ==================== -->
-    <string name="btnJugarLista">¡Jugar!\nMis quizzes</string>
-    <string name="btnNuevoQuizLista">Nuevo quiz</string>
-    <string name="btnIALista">Quiz con IA</string>
-    <string name="btnSalirLista">Cerrar sesión</string>
+    <!-- ==================== EDITAR ==================== -->
+    <string name="txtTituloEditar">Editar Quiz</string>
+    <string name="btnGuardarEditar">Guardar Cambios</string>
 
     <!-- ==================== DETALLE ==================== -->
     <string name="txtTituloDetalle">Mis Quizzes</string>
@@ -60,5 +81,28 @@
     <string name="btnConfirmarEliminarDetalle">Eliminar</string>
 
     <!-- ==================== IA ==================== -->
+    <string name="txtTituloIA">Generar quiz con IA</string>
+    <string name="txtTemaIA">¿Sobre qué tema quieres tu quiz?</string>
+    <string name="edtTemaIAHint">Ej: Capitales sudamericanas</string>
+    <string name="edtCantPreguntasIADefecto">1</string>
+    <string name="btnGenerarIA">Generar Quiz</string>
+    <string name="txtQuizSugeridoIA">Tu quiz sugerido:</string>
+    <!-- Datos de ejemplo -->
+    <string name="txtPreguntaGenerada1">1. ¿Montevideo es la capital de qué país?</string>
+    <string name="rbP1Op1IA">Paraguay</string>
+    <string name="rbP1Op2IA">Uruguay</string>
+    <string name="rbP1Op3IA">Bolivia</string>
+    <string name="txtPreguntaGenerada2">2. ¿Cuál es la capital de Argentina?</string>
+    <string name="rbP2Op1IA">Buenos Aires</string>
+    <string name="rbP2Op2IA">Santiago</string>
+    <string name="rbP2Op3IA">Lima</string>
+    <string name="txtPreguntaGenerada3">3. ¿Cuál es la capital de Chile?</string>
+    <string name="rbP3Op1IA">Santiago</string>
+    <string name="rbP3Op2IA">Quito</string>
+    <string name="rbP3Op3IA">Asunción</string>
+    <string name="txtPreguntaGenerada4">4. ¿Cuál es la capital de Perú?</string>
+    <string name="rbP4Op1IA">Lima</string>
+    <string name="rbP4Op2IA">Bogotá</string>
+    <string name="rbP4Op3IA">Caracas</string>
 
 </resources>

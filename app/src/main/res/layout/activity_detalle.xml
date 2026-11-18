@@ -113,7 +113,7 @@
                 </LinearLayout>
 
                 <ImageButton
-                    android:id="@+id/btnEditarQuiz1"
+                    android:id="@+id/btnEditarQuiz2"
                     style="@style/BotonIcono"
                     android:layout_width="32dp"
                     android:layout_height="32dp"
@@ -121,7 +121,7 @@
                     android:src="@android:drawable/ic_menu_edit" />
 
                 <ImageButton
-                    android:id="@+id/btnEliminarQuiz1"
+                    android:id="@+id/btnEliminarQuiz2"
                     style="@style/BotonIcono"
                     android:layout_width="32dp"
                     android:layout_height="32dp"
@@ -203,17 +203,17 @@
 
             <Button
                 android:id="@+id/btnCancelarDetalle"
-                style="@style/Widget.Material3.Button.TextButton"
+                style="@style/BotonPrincipal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/btnCancelarDetalle" />
 
             <Button
                 android:id="@+id/btnConfirmarEliminarDetalle"
+                style="@style/BotonPeligro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:backgroundTint="@color/incorrecto"
                 android:text="@string/btnConfirmarEliminarDetalle" />
 
         </LinearLayout>
