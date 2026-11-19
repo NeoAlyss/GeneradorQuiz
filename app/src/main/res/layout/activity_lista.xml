@@ -24,6 +24,15 @@
             android:text="@string/app_name" />
 
         <ImageButton
+            android:id="@+id/btnModoOscuroLista"
+            style="@style/BotonIcono"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_modo_oscuro"
+            android:contentDescription="@string/btnModoOscuroLista" />
+
+        <ImageButton
             android:id="@+id/btnSalirLista"
             style="@style/BotonIcono"
             android:layout_width="32dp"

@@ -9,24 +9,15 @@
 
     <ImageView
         android:id="@+id/imgLogo"
-        android:layout_width="96dp"
-        android:layout_height="96dp"
-        android:layout_marginTop="48dp"
-        android:src="@mipmap/ic_launcher"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="62dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo_quizmaker"
         android:contentDescription="@string/imgLogo"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <TextView
-        android:id="@+id/txtNombreAppLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/app_name"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/imgLogo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -39,7 +30,7 @@
         android:layout_marginEnd="32dp"
         android:hint="@string/edtCorreoLogin"
         android:inputType="textEmailAddress"
-        app:layout_constraintTop_toBottomOf="@id/txtNombreAppLogin"
+        app:layout_constraintTop_toBottomOf="@id/imgLogo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -83,7 +74,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         android:text="@string/txtIrARegistro"
-        android:textColor="#6750A4"
+        android:textColor="@color/primario"
         app:layout_constraintTop_toBottomOf="@id/btnIngresarLogin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>

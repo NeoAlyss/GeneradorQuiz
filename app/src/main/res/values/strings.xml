@@ -31,6 +31,7 @@
     <string name="btnJugarLista">¡Jugar!\nMis quizzes</string>
     <string name="btnNuevoQuizLista">Nuevo quiz</string>
     <string name="btnIALista">Quiz con IA</string>
+    <string name="btnModoOscuroLista">Cambiar a modo oscuro</string>
     <string name="btnSalirLista">Cerrar sesión</string>
 
     <!-- ==================== COMUNES (Agregar / Editar / IA) ==================== -->
@@ -64,6 +65,7 @@
     <!-- ==================== DETALLE ==================== -->
     <string name="txtTituloDetalle">Mis Quizzes</string>
     <string name="btnVolverDetalle">Volver</string>
+    <string name="btnJugarDetalle">Jugar quiz</string>
     <string name="btnEditarDetalle">Editar quiz</string>
     <string name="btnEliminarDetalle">Eliminar quiz</string>
     <!-- Datos de ejemplo -->
@@ -73,8 +75,6 @@
     <string name="txtInfoQuiz2">8 preguntas · Ciencias</string>
     <string name="txtTituloQuiz3">Historia de Chile</string>
     <string name="txtInfoQuiz3">12 preguntas · Historia</string>
-    <string name="txtTituloQuiz4">Mitología griega</string>
-    <string name="txtInfoQuiz4">6 preguntas · Cultura</string>
     <!-- Advertencia al eliminar -->
     <string name="txtAvisoEliminarDetalle">¿Quieres eliminar el quiz Capitales de Sudamérica?</string>
     <string name="btnCancelarDetalle">Cancelar</string>
